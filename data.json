@@ -1,0 +1,198 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "What's up",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey dude!",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "thanks",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Thanks a lot",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Ok cool",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "Talk to you later",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "I am hungry",
+        "intent": "place_order",
+        "entities": []
+      },
+      {
+        "text": "I want food",
+        "intent": "place_order",
+        "entities": []
+      },
+      {
+        "text": "I want to eat something",
+        "intent": "place_order",
+        "entities": []
+      },
+      {
+        "text": "Can you take an order for me",
+        "intent": "place_order",
+        "entities": []
+      },
+      {
+        "text": "I want to order food",
+        "intent": "place_order",
+        "entities": []
+      },
+      {
+        "text": "two plates of fried rice and chicken",
+        "intent": "items_ordered",
+        "entities": [
+          {
+            "start": 14,
+            "end": 36,
+            "value": "fried rice and chicken",
+            "entity": "food"
+          },
+          {
+            "start": 0,
+            "end": 10,
+            "value": "two plates",
+            "entity": "quantity"
+          }
+        ]
+      },
+      {
+        "text": "Burger for two",
+        "intent": "items_ordered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Burger",
+            "entity": "food"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": " two",
+            "entity": "quantity"
+          }
+        ]
+      },
+      {
+        "text": "2 plates of chinese noodles",
+        "intent": "items_ordered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "2 plates",
+            "entity": "quantity"
+          },
+          {
+            "start": 12,
+            "end": 27,
+            "value": "chinese noodles",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "1 pizza",
+        "intent": "items_ordered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "1",
+            "entity": "quantity"
+          },
+          {
+            "start": 2,
+            "end": 7,
+            "value": "pizza",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "2 plates of jollof rice and chicken",
+        "intent": "items_ordered",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "2 plates",
+            "entity": "quantity"
+          },
+          {
+            "start": 12,
+            "end": 35,
+            "value": "jollof rice and chicken",
+            "entity": "food"
+          }
+        ]
+      },
+      {
+        "text": "66566",
+        "intent": "order_id",
+        "entities": []
+      },
+      {
+        "text": "55433",
+        "intent": "order_id",
+        "entities": []
+      },
+      {
+        "text": "99087",
+        "intent": "order_id",
+        "entities": []
+      },
+      {
+        "text": "11243",
+        "intent": "order_id",
+        "entities": []
+      },
+      {
+        "text": "44345",
+        "intent": "order_id",
+        "entities": []
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}
